@@ -1,4 +1,4 @@
-#include "libreria.h"
+#include "lib.h"
 using namespace std;
 
 bool numeroprimo ( int a ){
