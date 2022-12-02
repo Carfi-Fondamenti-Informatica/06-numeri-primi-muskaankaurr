@@ -7,7 +7,7 @@ int main(){
   if (numeroprimo(a)){
     cout << "numero primo" << endl;
   }else {
-    cout << "numero non primo" << emdl;
+    cout << "numero non primo" << endl;
  }  
   return 0;
 }
