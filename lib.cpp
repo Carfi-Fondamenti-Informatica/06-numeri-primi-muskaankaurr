@@ -1,16 +1,21 @@
-#include <iostream>
-# include "libreria.h"
+#include "libreria.h"
 using namespace std;
-int main() {
-    int a=0;
-    cin >> a ;
-    if (numeroprimo(a)){
-        cout << "numero primo" << endl;
+
+bool numeroprimo ( int a ){
+    bool segnalibro = false;
+    int i=2;
+    if ( a != 2 ){
+        for (;i<a ; i++){
+            if (a%i==0){
+                break;
+            }
+        }
     }else{
-        cout << "numero non primo" << endl;
+        segnalibro=true;
     }
-
-
-    return 0;
+   if (i==a){
+       segnalibro=true;
+   }
+return segnalibro;
 }
 
